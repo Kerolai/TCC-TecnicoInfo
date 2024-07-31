@@ -1,0 +1,111 @@
+		*{ margin: 0; padding: 0; }
+
+		body{font-family: Century Gothic;}
+
+		/*FUNDO DO TÍTULO PRINCIPAL*/
+			.titulo {
+				background-color: #4B0082;
+				width: 100%;
+				height: 120px;
+				position: fixed;
+				z-index: 1;
+			}
+
+			#fonte1 {
+				font-size: 65px;
+				position: absolute;
+				color: white;
+				margin: 2%;
+				left: 32%;
+			}
+
+			/*PARÁGRAFOS*/
+				p {margin: 30px; padding-left: 6%}
+
+			/*SUBTÍTULOS*/
+				.subtitulo { margin: 8%; }
+
+			/*TÍTULO*/
+				#fonte2{font-size: 30px;}
+
+			input[type=radio]{ margin: 1%; }
+
+		/*BOTÕES*/
+			#voltar{
+				margin-left: 2%;
+				border: none;
+				background-color: white;
+			}
+			#voltar:hover{
+				cursor: pointer;
+			}
+
+			#bt1 {
+				padding: 18px 40px;
+				border-color: #4B0082;
+				background-color: #4B0082;
+				color: white;
+				border-radius: 30px;
+				cursor: pointer;
+			}
+			#bt1:hover {
+				box-shadow: 0 0 400px 0 #4B0082 inset, 0 0 15px 5px #4B0082;
+			}
+
+		/*CRÉDITOS*/
+			.cred{
+				text-align: center;
+				padding-left: 0;
+				font-family: Apple Chancery, cursive;
+				font-size: 16px;
+				color: white;
+			}
+
+			/*fundo*/
+			.div {
+				background-color: #4B0082;
+				bottom: 0;
+			    width: 100%;
+			    height: 30px;
+			}
+
+		/*BARRA DE ROLAGEM*/
+			/*tamanho*/
+			::-webkit-scrollbar { width: 10px; }
+
+			/*fundo*/
+			::-webkit-scrollbar-track { background-color: #808080; }
+
+			/*cor inicial (sem clicar)*/
+			::-webkit-scrollbar-thumb { background-color: #1C1C1C; border-radius: 20px; }
+
+			/*cor final (clicando)*/
+			::-webkit-scrollbar-thumb:hover {
+				background-color: #363636;
+			}
+
+		input[type='radio']:after {
+	        width: 15px;
+	        height: 15px;
+	        border-radius: 15px;
+	        top: -2px;
+	        left: -1px;
+	        position: relative;
+	        background-color: #d1d3d1;
+	        display: inline-block;
+	        border: 2px solid white;
+	    }
+
+	    input[type='radio']:checked:after {
+	        width: 13px;
+	        height: 13px;
+	        border-radius: 15px;
+	        top: -2px;
+	        left: -1px;
+	        position: relative;
+	        background-color: #4B0082;
+	        content: '';
+	        display: inline-block;
+	        visibility: visible;
+	        border: 2px solid white;
+	    }

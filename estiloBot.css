@@ -1,0 +1,62 @@
+/*Logins e cadastro*/
+
+/*CAIXA DE CONTORNO*/
+	fieldset {
+		border: 4px solid #4B0082;
+		width: 30%;
+		border-radius: 40px;
+	}
+
+/*links externos*/
+	.a{
+		display: block;
+		text-decoration: none;
+		font-weight: bold;
+		color: black;
+		line-height: 20px;
+		transition: 0.2s;
+		margin: 1%;
+		font-size: 15px;
+	}
+
+/*Animação do link externo*/
+	.a:hover{ color: #4B0082; }	
+
+/*Parte principal*/	
+	/*Botões de input*/
+		.principal input {
+			display: block;
+			height: 55px;
+			width: 340px;
+			margin: 15px;
+			padding-left: 25px;
+			border-radius: 10px;
+			border: 2px solid black;
+			font-size: 13pt;
+			background-color: transparent;
+			outline: none;
+		}
+
+	/*Botão de envio*/
+		.bot{
+			border: none;
+			outline: none;
+			border: 2px solid black;
+			height: 50px;
+			width: 108px;
+			color: #000000;
+			border-radius: 10px;
+			transition: 0.2s;
+			font-weight: bold;
+			font-size: 16px;
+			cursor: pointer;
+		}
+
+	/*Animação do botão de envio*/
+		.bot:hover{
+			background: #4B0082;
+			color: white;
+		}
+
+	/*cor do placeholder*/
+		::-webkit-input-placeholder {color: black;}
